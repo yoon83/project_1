@@ -1,0 +1,51 @@
+@charset 'utf-8';
+
+body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form,
+fieldset, legend, input, textarea, button, select {
+    margin: 0;
+    padding: 0
+}
+
+img, fieldset, input {
+    border: 0
+}
+
+ul, ol {
+    list-style: none
+}
+
+em, address {
+    font-style: normal
+}
+
+a {
+    text-decoration: none
+}
+
+a:hover, a:active, a:focus {
+    text-decoration: underline
+}
+
+table {
+    empty-cells: show
+}
+
+caption {
+    visibility: hidden;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    height: 0
+}
+
+.hdd {
+    visibility: hidden;
+    width: 0;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+    overflow: hidden;
+    text-indent: -9999px
+}
+
+
